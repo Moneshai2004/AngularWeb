@@ -1,21 +1,47 @@
-
-<section class="bg-emerald-50">
-    <div class="container h-[2000px] pt-40">
-      <DIV>
-        <span class="font-bold max-lg:first-letter:hello text-emerald-800">HELLO I'm</span>
-        
-      </DIV>
-      
-
-        <!-- Image Section -->
-        <section class="bg bg-emerald-200 border py-16">
-          <div class="container max-h-max flex items-center justify-end">
-            
-            <!-- Image with Rounded Corners and Shadow -->
-            <img src="/src/images/moni-removebg-preview.png" alt="Your Image" class="rounded-lg shadow-lg object-cover h-64 w-64">
-      
-          </div>
-        </section>
+<section class="bg-emerald-100">
+  <div class="container h-[2000px] pt-40 flex ">
+    <div>
+      <span class="font-bold max-lg:first-letter:hello text-emerald-800 mx-4">HELLO </span>
     </div>
-  
-  </section>
+
+    <!-- Image Section -->
+    <section class="bg bg-emerald-300 flex border py-16">
+
+      <div class="headline">
+        <div class="font-bold text-lg my-auto mx-4">
+          <p>My name is Monesh,</p>
+          <p> I'm a web developer with over 1 year of experience</p>
+        </div>
+        <span class="multiText ring-offset-green-800">
+         
+        </span>
+        
+     
+      </div>
+
+      <div class="ml-auto">
+        <!-- Image with Rounded Corners and Shadow -->
+        <img [src]="'assets/images/moni-removebg-preview.png'" alt="Moni Image" class="rounded-lg shadow-2xl object-cover h-100 w-200">
+      </div>
+    </section>
+  </div>
+</section>
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js" ></script>
+<script>
+    var typingEffect = new Typed(".multiText",{
+        strings:["Designer","coder","Developer"],
+        loop:true,
+        typeSpeed:100,
+        backSpeed:90,
+        backDelay:1600,
+
+    })
+        
+</script>
+<script src ="script.js"></script>
